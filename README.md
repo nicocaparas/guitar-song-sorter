@@ -2,7 +2,7 @@
 
 This is a simple web application to help you manage and sort your favorite guitar songs and tabs.
 
-✅ **Features:**
+**Features:**
 - Add songs with title, artist, and a link (YouTube or guitar tabs)
 - Automatically detect if the link is YouTube or tabs
 - Filter songs by link type (YouTube or tabs)
@@ -44,3 +44,6 @@ The interface is very plain right now as you can see so here are some future imp
 
 - **Search or filter by artist:**  
   Provide a search bar to quickly narrow down songs by title or artist name.
+
+- **Add a safe migration system for localStorage data:**  
+  Implement a migration checker to ensure that if the app’s data model or storage format changes, old user data can be safely updated without losing songs or causing errors.
