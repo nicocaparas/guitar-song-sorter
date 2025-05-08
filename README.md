@@ -13,10 +13,34 @@ This is a simple web application to help you manage and sort your favorite guita
 
 ---
 
+## ✨ Why I Built This
+
+I created this very simple guitar song sorter because I wanted a personal tool to organize and sort my favorite guitar songs and tabs. I am a casual player who loves exploring new songs and previously, all the songs I was learning or knew how to play were listed in a Google Doc. This made tracking and organizing songs quite difficult and I wanted a quicker way to find the song I wanted to play along with the tabs for that song. I was also tired of not knowing what song to play when my friends would ask me to play a song, so with this guitar sorter I can just show them the list and they can pick out a song. Ultimately, this project helped me practice my web development skills — especially working with localStorage, sorting/filtering logic, and deploying to GitHub Pages.
+
+---
+
 ## 🚀 How to Use
 
-1. Open the app in your browser.
+1. Click the link to open the app in your browser: https://nicocaparas.github.io/guitar-song-sorter/
 2. Add songs by entering the title, artist, and link.
 3. Use the sort and filter buttons to organize your list.
 4. Click on a song’s link to open it (and mark it as “last opened”).
 5. Export your song list to back it up, or import it later.
+
+---
+
+## 🔧 Future Improvements
+
+The interface is very plain right now as you can see so here are some future improvements I am thinking of doing once my fingers hurt from playing too much guitar:
+
+- **Improve front-end design and UI:**  
+  Redesign the interface with better visual styling, modern layouts, and responsive design. 
+
+- **Personal notes per song:**  
+  Let users add practice notes, chord reminders, or tuning details for each entry.
+
+- **Favorite/starred songs:**  
+  Add a way to mark certain songs as favorites for quick access.
+
+- **Search or filter by artist:**  
+  Provide a search bar to quickly narrow down songs by title or artist name.
