@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Guitar Song Sorter</title>
+</head>
+<body>
+  <h1>Guitar Songs</h1>
+
+  <!-- Add Song Form -->
+  <form id="addSongForm">
+    <input type="text" id="songTitle" placeholder="Song Title">
+    <input type="text" id="songArtist" placeholder="Artist">
+    <input type="text" id="link" placeholder="Link">
+    <button type="submit">Add Song</button>
+  </form>
+
+  <br>
+
+  <!-- Sort Buttons -->
+  <button onclick="SortModule.sortByName()">Sort A-Z</button>
+  <button onclick="SortModule.sortByLastOpened()">Sort by Most Recent</button>
+  <button id="filterToggleButton" onclick="SortModule.toggleFilterByLinkType()">Filter: All</button>
+
+  <!-- Delete Songs -->
+  <button onclick="UIModule.toggleDeleteMode()">Delete Songs</button>
+
+  <!-- Export/Import -->
+  <button onclick="DataModule.exportSongs()">Export Backup</button>
+  <input type="file" id="importFile">
+
+  <ul id="songList"></ul>
+
+  <script src="main.js"></script>
+
+</body>
+</html>
