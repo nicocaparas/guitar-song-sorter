@@ -29,7 +29,7 @@ I created this very simple guitar song sorter because I wanted a personal tool t
 
 ---
 
-## 🔧 Future Improvements
+## 🔧 Future Improvements (IN PROGRESS)
 
 The interface is very plain right now as you can see so here are some future improvements I am thinking of doing once my fingers hurt from playing too much guitar:
 
